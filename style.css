@@ -1,0 +1,39 @@
+/* Styles for the footer section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .footer-links,
+  .footer-social {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links a,
+  .footer-social a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  /* Styles for larger screens */
+  @media (min-width: 768px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
